@@ -1,23 +1,21 @@
 #!/bin/bash
-echo "Select file or directory [e.g. /home/joe/filename]: "
-
-read INPUT
+read -p "Select file or directory [e.g. /home/joe/filename]: " INPUT
 
 if [ -e "$INPUT" ]; then
 	if [ -f "$INPUT" ]; then
-		echo "$INPUT is a file"
+		echo "[x] File"
 	fi
 	if [ -d "$INPUT" ]; then
-		echo "$INPUT is a directory"
+		echo "[x] Directory"
 	fi
 	if [ -r "$INPUT" ]; then
-		echo "$INPUT is readable"
+		echo "[x] Readable"
 	fi
 	if [ -w "$INPUT" ]; then
-		echo "$INPUT is writable"
+		echo "[x] Writable"
 	fi
 	if [ -x "$INPUT" ]; then
-		echo "$INPUT is executable"
+		echo "[x] Executable"
 	fi
 else
 	echo "$INPUT does not exist"
