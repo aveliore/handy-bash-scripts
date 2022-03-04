@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 echo -n 'Enter the first number: '
-read -r a 
+read a 
 echo -n 'Enter the second number: '
-read -r b 
+read b 
 echo "Result: $a + $b = $((a+b))"
