@@ -25,7 +25,7 @@ No dependencies required. Should work properly on most of modern Linux distros.
 20. [strind.sh](https://github.com/aveliore/handy-bash-scripts/blob/main/strind.sh) - finds all files containing a specific string.
 21. [substract.sh](https://github.com/aveliore/handy-bash-scripts/blob/main/substract.sh) - substract numbers. 
 
-More scripts coming soon. 
+...more scripts coming soon. 
 
 ## Usage 
 1. Download the repository: 
