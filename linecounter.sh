@@ -1,4 +1,5 @@
 #!/bin/bash
+#Counts lines in a text file. 
 read -p "Select file [e.g. /home/joe/file.txt]: " INPUT
 if [ -e "$INPUT" ]; then
     if [ -f "$INPUT" ]; then
