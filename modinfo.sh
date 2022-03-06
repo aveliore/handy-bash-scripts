@@ -1,4 +1,5 @@
 #!/bin/bash
+#Prints mode information (file or directory, read, write, execute)
 read -p "Select file or directory [e.g. /home/joe/filename]: " INPUT
 
 if [ -e "$INPUT" ]; then

@@ -1,4 +1,5 @@
 #!/bin/bash 
+#Finds files and directories modified within specific dates.
 DIRNAME=.
 ENDATE="$(date --date 'next day' '+%Y-%m-%d')"
 echo -n "Select directory [default: current]: "

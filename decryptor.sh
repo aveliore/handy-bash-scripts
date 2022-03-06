@@ -1,4 +1,5 @@
 #!/bin/bash
+#Decrypt GPG-encrypted files. 
 echo -n "Select file to be decrypted [ex. myfile.txt.gpg]: "
 read ENCRYPTEDFILENAME
 echo -n "Select a name for decrypted file [tip: use current filename without .GPG extension]: "

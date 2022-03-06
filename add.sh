@@ -1,5 +1,5 @@
 #!/bin/bash 
-
+#Add numbers.
 echo -n 'Enter the first number: '
 read a 
 echo -n 'Enter the second number: '

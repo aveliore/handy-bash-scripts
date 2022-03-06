@@ -1,5 +1,5 @@
 #!/bin/bash 
-
+#Substract numbers.
 echo -n 'Enter the first number (minuend): '
 read a 
 echo -n 'Enter the second number (subtrahend): '

@@ -1,4 +1,5 @@
 #!/bin/bash
+#Encrypt a file using GPG.
 echo -n "Select file to be encrypted [ex. myfile.txt]: "
 read FILE
 gpg -c "$FILE"
